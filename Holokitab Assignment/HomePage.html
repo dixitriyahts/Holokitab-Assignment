@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>HOLOKITAB| HOME PAGE</title>  
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!--Html css-->
+<link rel="stylesheet" type="text/css" href="HomePage.css">
+
+<!--Bootstrap css-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+
+<script type = "text/javascript">
+  function displayNextImage() {
+      x = (x === images.length - 1) ? 0 : x + 1;
+      document.getElementById("img").src = images[x];
+  }
+
+  function displayPreviousImage() {
+      x = (x <= 0) ? images.length - 1 : x - 1;
+      document.getElementById("img").src = images[x];
+  }
+
+  function startTimer() {
+      setInterval(displayNextImage, 10000);
+  }
+
+  var images = [], x = -1;
+  images[0] = "images/img1.jpg";
+  images[1] = "images/img2.png";
+  images[2] = "images/img3.jpg";
+</script>
+
+</head>
+<body>
+
+
+<!--Naviagation Bar-->
+<nav class="navbar navbar-expand-lg navbar-light" id="navbarstyle"  style="background-color: white">
+  <div>
+  <a class="navbar-brand" id="actives" href="HomePage.html"><i class="fa fa-home" id="holoki"><b id="holo">Holokitab</b></i></a>
+  </div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  
+  <div>
+  <a class="navbar-brand" id="actives" href="#"><b id="home"> CATALOGUE</b></a>
+  <a class="navbar-brand" id="actives" href="#"><b id="home"> ABOUT US</b></a>
+  <a class="navbar-brand" id="actives" href="#"><b id="home"> CONTACT US</b></a>
+  <a class="navbar-brand" id="actives" href="#"><b id="home"> BLOG</b></a>
+  <a class="navbar-brand" id="actives" href="#"><b id="home"> REGISTER IN</b></a>  
+  <a class="navbar-brand" id="actives" href="#"><b id="home"> FAQs</b></a>  
+</div>
+<button class="btn btn-danger btn-outline-success my-3 my-sm-2" id="actives" type="button"><b id="button"> Order Now</b></button>
+</div>
+</nav>
+ 
+
+<body onload = "startTimer()">
+  <img id="img" src="images/img1.jpg"/>
+  <button type="button" class="btn btn-info btn-sm left"  onclick="displayPreviousImage()"><b>Previous</b></button>
+  <button type="button" class="btn btn-info btn-sm right" onclick="displayNextImage()"><b>Next</b></button>
+
+<div class="container-fluid">
+  <h3 style="text-align: center;">Learning is Fun with <b class="txt neonText">Holokitab </b></h3>
+  <p class="paragraph">Bring learning content alive for your small ones. See the magic of Augmented Reality in Learning. 
+  Help you children develop cognitive ability with Holokitab Augmented Reality Books.</p>
+</div>
+       
+<!--First row cards-->
+<div class="first-div row">   
+    
+<div class="tp col-10 col-sm-6 col-md-4">
+<div class="card" style="width: 18rem;">
+<img class="card-img-top" src="images/cart1.jfif" alt="Card image cap">
+<div class="card-body">
+<p class="card-text">HoloKitab Technologies is an early stage startup using Augmented Reality to improve learning experiences. </p>
+</div>
+</div>
+</div>
+
+<div class="tp col-10 col-sm-6 col-md-4">
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="images/cart2.jpg" alt="Card image cap">
+    <div class="card-body">
+      <p class="card-text">We publish a wide range of curriculum based Augmented Reality books, which includes live 3D animations.</p>
+    </div>
+  </div>
+</div>
+
+<div class="tp col-10 col-sm-6 col-md-4">
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="images/cart3.jpg" alt="Card image cap">
+    <div class="card-body">
+      <p class="card-text">Right now, we publish books for children aged 2-6 years old.
+        And books can be our best friends for life, for all the right reasons.
+      </p>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+<!--second div-->
+
+<div class="second-div row">
+
+<div class="tp1 col-10 col-sm-6 col-md-4">
+<div class="card" style="width: 18rem;">
+<img class="card-img-top" src="images/cart4.jpg" alt="Card image cap">
+<div class="card-body">
+<p class="card-text">A partnership is an arrangement where parties, agree to cooperate to advance their mutual interests. The partners in a partnership may be individuals, businesses, schools, governments or combinations.  
+</p>
+</div>
+</div>
+</div>
+
+<div class="tp1 col-10 col-sm-6 col-md-4">
+<div class="card" style="width: 18rem;">
+<img class="card-img-top" src="images/cart5.jpg" alt="Card image cap">
+<div class="card-body">
+<p class="card-text">When child is studying, he/she tries to create an imaginary figure in the head based on what is being read. That's called visualization and it helps to retain the information for a long time.</p>
+</div>
+</div>
+</div>
+
+<div class="tp1 col-10 col-sm-6 col-md-4">
+<div class="card" style="width: 18rem;">
+<img class="card-img-top" src="images/cart6.jpeg" alt="Card image cap">
+<div class="card-body">
+  <p class="card-text">A partnership is an arrangement where parties, agree to cooperate to advance their mutual interests. The partners in a partnership may be individuals, businesses, schools, governments or combinations.  
+  </p>
+</div>
+</div>
+</div>
+
+</div>
+    
+    
+<!--Footer start here-->
+<footer class="footer">
+<div class="container">
+<div class="row">
+<div class="footer-col">
+<h4>Holokitab</h4>
+<ul>
+<li><a href="#" id="address">Home</a></li>
+<li><a href="#" id="address">About</a></li>
+<li><a href="#" id="address">Pricing</a></li>
+<li><a href="#" id="address">Privacy Policy</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>Get Help</h4>
+<ul>
+<li><a href="#" id="address">Returns</a></li>
+<li><a href="#" id="address">Contact Us</a></li>
+<li><a href="#" id="address">Order Status</a></li>
+<li><a href="#" id="address">Payment Options</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4 >Address</h4>
+<ul >
+<li><a href="#" id="address">Rajeev Nagar<br>AgraUP-282002
+</a></li>
+<li><a href="#" id="address"><i class="fa fa-phone" aria-hidden="true"> 6396188871</i></li>
+<li><a href="mailto:dixitriyahts@gmail.com" id="address">rrr@gmail.com</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>follow us</h4>
+<div class="social-links">
+<a href="#"><i class="fab fa-facebook-f"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+<a href="#"><i class="fab fa-twitter"></i></a>
+<a href="#"><i class="fab fa-linkedin"></i></a>
+</div>
+</div>
+</div>
+</div>
+</footer>
+        
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
